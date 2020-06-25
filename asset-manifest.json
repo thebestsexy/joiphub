@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/joiphub/static/css/main.77b187f8.chunk.css",
+    "main.js": "/joiphub/static/js/main.b14b2c79.chunk.js",
+    "main.js.map": "/joiphub/static/js/main.b14b2c79.chunk.js.map",
+    "runtime-main.js": "/joiphub/static/js/runtime-main.4f708a7a.js",
+    "runtime-main.js.map": "/joiphub/static/js/runtime-main.4f708a7a.js.map",
+    "static/js/2.db6b3837.chunk.js": "/joiphub/static/js/2.db6b3837.chunk.js",
+    "static/js/2.db6b3837.chunk.js.map": "/joiphub/static/js/2.db6b3837.chunk.js.map",
+    "index.html": "/joiphub/index.html",
+    "precache-manifest.dcfc34b6e4a828a16adc103feadbace7.js": "/joiphub/precache-manifest.dcfc34b6e4a828a16adc103feadbace7.js",
+    "service-worker.js": "/joiphub/service-worker.js",
+    "static/css/main.77b187f8.chunk.css.map": "/joiphub/static/css/main.77b187f8.chunk.css.map",
+    "static/js/2.db6b3837.chunk.js.LICENSE.txt": "/joiphub/static/js/2.db6b3837.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f708a7a.js",
+    "static/js/2.db6b3837.chunk.js",
+    "static/css/main.77b187f8.chunk.css",
+    "static/js/main.b14b2c79.chunk.js"
+  ]
+}

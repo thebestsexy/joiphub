@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c27a9d2f746401c9af0b119c2aedeb17",
+    "revision": "a69fa6c7bca91a95fd5d1a4f76d960ad",
     "url": "/joiphub/index.html"
   },
   {
-    "revision": "6153fd01bf4a2fc370d1",
+    "revision": "2784ec3869b91bc83af5",
     "url": "/joiphub/static/css/main.77b187f8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/joiphub/static/js/2.db6b3837.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6153fd01bf4a2fc370d1",
-    "url": "/joiphub/static/js/main.b14b2c79.chunk.js"
+    "revision": "2784ec3869b91bc83af5",
+    "url": "/joiphub/static/js/main.974c4b66.chunk.js"
   },
   {
     "revision": "014f1df8cac0b80766fc",

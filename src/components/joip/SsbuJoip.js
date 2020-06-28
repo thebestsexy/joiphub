@@ -309,15 +309,57 @@ export default class SsbuJoip extends Component {
                 },
                 {
                     character: "Lucina",
-                    imgurl: "https://i.imgur.com/KXjdryw.jpg",
-                    name: "lucina riding",
-                    body: "Alright, I think I'm ready for more.",
+                    imgurl: "https://i.imgur.com/VIQadBz.jpg",
+                    name: "lucina missionary",
+                    body: "Fuck that feels amazing",
                     stroke: {
-                        text: "Keep that tight grip, but stroke a bit quicker for ",
+                        text: "Start stroking a bit faster, ",
                         type: "stroke",
-                        max: 35,
-                        min: 25,
+                        max: 55,
+                        min: 35,
                         mult: 5,
+                    },
+                    btnType: "increase",
+                },
+                {
+                    character: "Lucina",
+                    imgurl: "https://i.imgur.com/szpQIOG.jpg",
+                    name: "lucina love doggy",
+                    body: "Oh don't stop I'm so close.",
+                    stroke: {
+                        text: "Stroke very fast for ",
+                        type: "stroke",
+                        max: 65,
+                        min: 50,
+                        mult: 5,
+                    },
+                    btnType: "increase",
+                },
+                {
+                    character: "Lucina",
+                    imgurl: "https://i.imgur.com/szpQIOG.jpg",
+                    name: "lucina love doggy",
+                    body: "Oh don't stop I'm so close.",
+                    stroke: {
+                        text: "Stroke very fast for ",
+                        type: "stroke",
+                        max: 65,
+                        min: 50,
+                        mult: 5,
+                    },
+                    btnType: "increase",
+                },
+                {
+                    character: "Lucina",
+                    imgurl: "https://i.imgur.com/aPgn5Ow.jpg",
+                    name: "lucina end",
+                    body: "As much fun as I had you aren't allowed to cum yet. Have fun.",
+                    stroke: {
+                        text: "",
+                        type: "none",
+                        max: 6,
+                        min: 1,
+                        mult: 1,
                     },
                     btnType: "increase",
                 },
@@ -385,7 +427,7 @@ export default class SsbuJoip extends Component {
                 case "increase":
                     return (
                         <div>
-                            <div className="col-12">
+                            <div className="col-12 mt-2">
                                 <img
                                     className="mt-2"
                                     src={stages[counter].imgurl}
@@ -393,7 +435,7 @@ export default class SsbuJoip extends Component {
                                     onClick={this.increaseCounter}
                                 />
                             </div>
-                            <button onClick={this.increaseCounter} className="btn btn-primary">Next Stage</button>
+                            <button onClick={this.increaseCounter} className="btn btn-primary mt-2">Next Stage</button>
                         </div>
                     )
                 case "roll":
